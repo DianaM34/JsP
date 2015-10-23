@@ -1,16 +1,35 @@
 <html>
 	<head>
-		
+
 	</head>
 	<body>
 		<script>
-		var x="3";
-		console.log(x);
-		x = "diana";
-		console.log(x);
-		x = "שם";
-		console.log(typeof x);
-	</script>
+			var x = "3";
+			var women = {
+				eyeColor : "Green",
+				name : "Diana",
+				height : 168,
+				place : {
+					islivinginIsrael : true,
+					city : "Yeruham",
+				},
+				languages : {
+					isEnglish:true,
+					isHebrew:true,
+					isrussian:true,
+					
+				}
+			};
+			
+			women.eyeColor = "brown";
+			console.log(women.eyeColor);
+			console.log(x);
+			console.log(typeof women.languages.isHebrew);
+			x = "diana";
+			console.log(x);
+			x = "שם";
+			console.log( typeof x);
+		</script>
 	</body>
-	
+
 </html>
